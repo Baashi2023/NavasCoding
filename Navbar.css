@@ -1,0 +1,51 @@
+.navbar{
+    background-image: url("../pic/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+     display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around; 
+    align-items: center;   
+}
+.logo{
+    width: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: orange;
+}
+ a :hover{
+    color: white;
+    text-decoration: underline dotted white;
+}
+
+.navbar-links{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 10px;
+}
+.puy-now{
+    background: none;
+    padding: 8px 25px;
+    /* box-shadow: 1px 1px 10px 1px; */
+    border-radius: 10px;
+    margin-left: -50px;
+    border: 3px solid orange;
+    color: orange;
+
+}
+.addCart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+    gap: 10px;
+}
+.addCart a{
+    color: orange;
+    text-decoration: none;
+}
